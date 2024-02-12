@@ -1,4 +1,3 @@
-import mongodb from 'https://unpkg.com/mongodb@5.6.0/lib/index.js'
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://lbbeazrr:UHI2aew6bYyvOR7d@cluster0.22jsnue.mongodb.net/?retryWrites=true&w=majority";
