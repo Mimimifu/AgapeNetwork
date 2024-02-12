@@ -3,7 +3,7 @@ class storage {
 
 
     unique_id(){
-        let uniq = 'id' + (new Date()).getTime();
+        let uniq = window.crypto.randomUUID();
         return uniq;
     }
 
