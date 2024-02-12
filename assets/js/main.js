@@ -1,0 +1,1 @@
+import storage from '/assets/js/storage.js'
