@@ -3,8 +3,8 @@ class storage {
 
 
     unique_id(){
-        let uniq = window.crypto.randomUUID();
-        return uniq;
+        let uniq = window.crypto.randomUUID()
+        return uniq
     }
 
     set(key,value){
